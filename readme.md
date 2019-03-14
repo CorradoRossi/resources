@@ -4,6 +4,27 @@
 
 <img src="understanding.gif" alt="understanding" width="100%">
 
+##### Table Of Contents
+
+[Introduction](#Introduction)
+[Philosophy](#Philosophy)
+[Software & Setup](#Software#&#Setup)
+[Where To Begin?](#Where#To#Begin?)
+[Tools](#Tools)
+[Software](#Software)
+[Local Development](#Local#Development)
+[Things That Make A **Huge** Difference](#Things#That#Make#A#**Huge**#Difference)
+[Browsers](#Browsers)
+[Network Tools](#Network#Tools)
+[Collaboration](#Collaboration)
+[Notes and Ideas](#Notes#and#Ideas)
+[Defensive Security](#Defensive#Security)
+[Techniques and Workflow](#Techniques#and#Workflow)
+[Documentation](#Documentation)
+[Cheatsheets](#Cheatsheets)
+[To be expanded](#To#be#expanded)
+
+
 ## Introduction
 
  There are enough "getting started" how-to's, walkthroughs, tips, tricks, posts, and pages available to the aspiring developer to last a lifetime. And a lot of them are really good. I mean really, **really** good. There are free books, thousands of hours of lectures on Youtube, and thriving communities of best in class experts--often the very authors of the languages and code you've got questions about--in IRC chats, forums, subreddits, and Slack channels. 
