@@ -59,9 +59,11 @@ That's when I took my first job in web development and apart from a brief stint 
 
 #### Text Editors
 
-- [Visual Studio Code](https://code.visualstudio.com) - A code editing, redefined, free and open-source editor which runs everywhere.
-- [Atom](https://atom.io) - A hackable and open-source text editor for the 21st century.
+- [Visual Studio Code](https://code.visualstudio.com) 
+- [Atom](https://atom.io) 
 - [Sublime Text](https://sublimetext.com)
+- [Brackets]()
+- [Xcode]()
 
 #### The Terminal
 
@@ -70,6 +72,94 @@ That's when I took my first job in web development and apart from a brief stint 
 - [Iterm2](https://iterms2.com)
 - [Hyper](https://hyper.com)
 - [Awesome Command Line](https://github.com/)
+
+#### Browsers
+
+- [Chrome]()
+- [Firefox]()
+- [Firefox Developer Edition]()
+- [Brave]()
+- [Opera]()
+- [Safari]()
+
+## Software
+
+#### Design
+
+- [Sketch]()
+- [Affinity Designer]()
+- [Affinity Photo]()
+- [Adobe Creative Cloud 6]()
+- [Zeplin]()
+- [Sip]()
+- [Image Optim]()
+- [Squash]()
+- [Image2Icon]()
+
+#### Local Development
+
+- [MAMP]()
+- [Virtualbox]()
+- [Vagrant]()
+- [Yummy FTP]()
+- [Sequel Pro]()
+- [Postman]()
+- [Insomnia]()
+- [MySQL]()
+- [MongoDB]()
+
+#### Things That Make A Big Difference
+
+- [Flux]()
+- [Spectacle]()
+- [Alfred]()
+- [1Password]()
+- [iStat Menus]()
+- [Cheatsheet]()
+- [Setapp]()
+
+#### Collaboration
+
+- [Dropbox]()
+- [Onedrive]()
+- [Slack]()
+- [Telegram]()
+- [Signal]()
+
+#### Notes and Ideas
+
+- [Evernote]()
+- [Joplin]()
+- [Workflowy]()
+- [Trello]()
+- [Todoist]()
+- [Google Keep]()
+- [Scrivener]()
+- [Scapple]()
+
+#### Defensive Security
+
+- [Wireshark]()
+- [Sloth]()
+- [Burp Pro]()
+- [Little Snitch]()
+- [Micro Snitch]()
+
+
+
+## Techniques and Workflow
+
+- Learn to use the keyboard shortcuts.
+- Show hidden files and folders.
+- Most things that can be done with the command line, should be done with the command line.
+- Organize your User/ folder in an intuitive way. The [ten point]() method is good, but there are others.
+
+
+
+
+
+
+
 
 
 
@@ -91,9 +181,6 @@ Hello World! 👋 Do you want to get started building web pages for the [web](ht
     Happy hacking! 🦄
 
 ## Software
-
-- [Atom](https://atom.io) - A hackable and open-source text editor for the 21st century.
-- [Visual Studio Code](https://code.visualstudio.com) - A code editing, redefined, free and open-source editor which runs everywhere.
 - [MAMP](https://www.mamp.info/en) - An one-click-solution for setting up your personal webserver.
 - [GitHub Desktop](https://desktop.github.com) - A Git collaboration tool for [macOS](https://www.apple.com/lae/macos) and [Windows](https://www.microsoft.com/en-us/windows).
 - [Hyper](https://hyper.is) - A beautiful and extensible [CLI](https://en.m.wikipedia.org/wiki/Command-line_interface) experience, built on open web standards.
