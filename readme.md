@@ -49,7 +49,30 @@ But I've always been an artist and a musician--aesthetics are not only important
 
 That's when I took my first job in web development and apart from a brief stint as an executive at a startup in San Francisco, I haven't looked back.
 
-## The Basics
+## The Tools
+
+#### The Basics
+
+- [MacOS]()
+- [Homebrew]()
+- [NPM]()
+
+#### Text Editors
+
+- [Visual Studio Code](https://code.visualstudio.com) - A code editing, redefined, free and open-source editor which runs everywhere.
+- [Atom](https://atom.io) - A hackable and open-source text editor for the 21st century.
+- [Sublime Text](https://sublimetext.com)
+
+#### The Terminal
+
+- [ZSH](https://)
+- [Oh My Zsh](https://)
+- [Iterm2](https://iterms2.com)
+- [Hyper](https://hyper.com)
+- [Awesome Command Line](https://github.com/)
+
+
+
 
 
 
