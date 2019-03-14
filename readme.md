@@ -1,6 +1,6 @@
 <img src="understanding.gif" alt="understanding" width="100%">
 
-> Hello World! This is, combined, a list of useful resources and an impromptu article of sorts. It started out as a few words of encouragement to introduce my resource list, and turned into some sort of philosophical treatise. I hope it isn't received as preachy or prescriptive: I assure you, it's from one eternal student of life to another.
+> Hello World! 👋 This is, combined, a list of useful resources and an impromptu article of sorts. It started out as a few words of encouragement to introduce my resource list, and turned into some sort of philosophical treatise. I hope it isn't received as preachy or prescriptive: I assure you, it's from one eternal student of life to another.
 
 > If you're just here for the links and resources, skip down to the [on getting started](#front-end) section. Otherwise, If you'd like to read my rambling pontification, you can start right here.
 
@@ -49,7 +49,7 @@ But I've always been an artist and a musician--aesthetics are not only important
 
 That's when I took my first job in web development and apart from a brief stint as an executive at a startup in San Francisco, I haven't looked back.
 
-## The Tools
+## Tools
 
 #### The Basics
 
@@ -65,6 +65,8 @@ That's when I took my first job in web development and apart from a brief stint 
 - [Brackets]()
 - [Xcode]()
 
+## Command Line Tools
+
 #### The Terminal
 
 - [ZSH](https://)
@@ -72,15 +74,6 @@ That's when I took my first job in web development and apart from a brief stint 
 - [Iterm2](https://iterms2.com)
 - [Hyper](https://hyper.com)
 - [Awesome Command Line](https://github.com/)
-
-#### Browsers
-
-- [Chrome]()
-- [Firefox]()
-- [Firefox Developer Edition]()
-- [Brave]()
-- [Opera]()
-- [Safari]()
 
 ## Software
 
@@ -95,8 +88,11 @@ That's when I took my first job in web development and apart from a brief stint 
 - [Image Optim]()
 - [Squash]()
 - [Image2Icon]()
+- [Figma](https://www.figma.com)
 
-#### Local Development
+## Local Development
+
+#### Network Tools
 
 - [MAMP]()
 - [Virtualbox]()
@@ -108,7 +104,16 @@ That's when I took my first job in web development and apart from a brief stint 
 - [MySQL]()
 - [MongoDB]()
 
-#### Things That Make A Big Difference
+#### Browsers
+
+- [Chrome]()
+- [Firefox]()
+- [Firefox Developer Edition]()
+- [Brave]()
+- [Opera]()
+- [Safari]()
+
+#### Things That Make A **Huge** Difference
 
 - [Flux]()
 - [Spectacle]()
@@ -117,6 +122,7 @@ That's when I took my first job in web development and apart from a brief stint 
 - [iStat Menus]()
 - [Cheatsheet]()
 - [Setapp]()
+- [Dash]()
 
 #### Collaboration
 
@@ -145,96 +151,12 @@ That's when I took my first job in web development and apart from a brief stint 
 - [Little Snitch]()
 - [Micro Snitch]()
 
-
-
 ## Techniques and Workflow
 
 - Learn to use the keyboard shortcuts.
 - Show hidden files and folders.
 - Most things that can be done with the command line, should be done with the command line.
 - Organize your User/ folder in an intuitive way. The [ten point]() method is good, but there are others.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Hello World! 👋 Do you want to get started building web pages for the [web](https://media.giphy.com/media/eoxomXXVL2S0E/giphy.gif)? Then this guide is for you!
-
-1. If you haven't already, download a text editor such as [Atom](https://atom.io) or [Visual Studio Code](https://code.visualstudio.com). This is where you'll write and program your web pages by writing code.
-
-2. To get started building your first web page using [HTML and CSS](https://#/) read these intro articles [on getting started](#front-end).
-
-3. Writing [front-end](https://en.m.wikipedia.org/wiki/Front_and_back_ends) applications is great but what if you want to build a website which requires a login system for example? Head to this [back-end section](#back-end) to learn more about writing server applications using PHP and SQL.
-
-4. If you scroll further down you'll find our favorite online resources to get started with web development.
-
-    Happy hacking! 🦄
-
-## Software
-- [MAMP](https://www.mamp.info/en) - An one-click-solution for setting up your personal webserver.
-- [GitHub Desktop](https://desktop.github.com) - A Git collaboration tool for [macOS](https://www.apple.com/lae/macos) and [Windows](https://www.microsoft.com/en-us/windows).
-- [Hyper](https://hyper.is) - A beautiful and extensible [CLI](https://en.m.wikipedia.org/wiki/Command-line_interface) experience, built on open web standards.
-- [Figma](https://www.figma.com) - A digital collaborative interface design tool.
-
-## Front-end
-
-#### Beginner
-
-- [Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css) - A comprehensive guide dedicated to helping beginners learn HTML and CSS.
-- [Introduction to HTML](https://scrimba.com/g/ghtml) - Learn basic HTML with this interactive course with Scrimba.
-- [Introduction to CSS](https://scrimba.com/g/gintrotocss) - Learn how to design websites in less than an hour with Scrimba.
-- [Introduction to JavaScript](https://scrimba.com/g/gintrotojavascript) - Learn the most popular programming language on the web.
-
-#### Intermediate
-
-- [What The Flexbox?](https://flexbox.io) - A free 20 video course that will help you master CSS Flexbox.
-- [CSS Grid](https://cssgrid.io) - Learn css grid with Wes Bos in 25 pretty good videos.
-- [Introduction to ES6](https://scrimba.com/g/gintrotoes6) - Learn modern JavaScript through 23 screencasts.
-- [Learn Modern JavaScript](https://scrimba.com/g/ges6) - Features [freeCodeCamp's ES6 curriculum](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/es6/) recorded as interactive screencasts.
-
-#### Advanced
-
-- [JavaScript 30](https://javascript30.com) - Build 30 things with vanilla JS in 30 days with 30 tutorials.
-- [Learn React](https://scrimba.com/g/glearnreact) - Learn all the basics to build dynamic, interactive web applications with React.
-- [Learn Vue.js](https://scrimba.com/g/glearnvue) - 9 interactive screencasts to take you from beginner to advanced.
-
-## Back-end
-
-- [The PHP Practitioner](https://laracasts.com/series/php-for-beginners) - A beginner PHP video course by Laracasts.
-- [Introduction to SQL](https://sqlbolt.com) - A series of interactive lessons and exercises designed to help you quickly learn SQL.
-- [C# Programming (Beginners)](https://www.youtube.com/playlist?list=PLrW43fNmjaQXhWOKalftye87ObZA-xNIJ) - A beginner-friendly video course of tutorials on programming in C#.
-- [Laravel From Scratch](https://laracasts.com/series/laravel-from-scratch-2018) - A video series with the essentials of Laravel development.
-
-## Tools
-
-- [Git and GitHub for Poets](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV) - A video course about version control with Git and GitHub.
-- [Command Line Basics](https://www.youtube.com/playlist?list=PLLnpHn493BHGmEYzbjWPJsnRMhvs-PSYG) - A video tutorial series to learn command line from the very basics.
-- [Figma Tutorial](https://www.youtube.com/playlist?list=PLXDU_eVOJTx6zk5MDarIs0asNoZqlRG23) - A video course to get started with designing in Figma.
-
-## Discounts
-
-<em><sub>The links below are discounted software and services for students. Use your school email address to get access to these resources. Please ask a fellow student or a teacher if you can't remember your address. For InVision you'll need an code to sign up, please ask your teacher.</sub></em>
-
-- [Student Developer Pack](https://education.github.com/pack) - The best developer tools, free for students.
-- [JetBrains](https://www.jetbrains.com/student) - Whichever technologies you use there's a JetBrains tool to match.
-- [InVision](https://www.invisionapp.com/education-signup) - A digital product design, workflow & collaboration tool.
-
-## Podcasts
-
-- [Base.cs](https://www.codenewbie.org/basecs) - Beginner-friendly [computer science](https://en.m.wikipedia.org/wiki/Computer_science) lessons by [CodeNewbie](https://www.codenewbie.org/basecs).
-- [Front End Happy Hour](http://frontendhappyhour.com) - A podcast featuring a panel of software engineers talking about front-end.
-- [Syntax](https://syntax.fm) - Tasty treats podcast for web developers by [Wes Bos](https://twitter.com/wesbos) and [Scott Tolinski](https://twitter.com/stolinski).
-- [The Laracasts Snippet](https://laracasts.simplecast.fm) - Each episode, offers a single thought on some aspect of web development.
 
 ## Documentation
 
@@ -254,14 +176,35 @@ Hello World! 👋 Do you want to get started building web pages for the [web](ht
 - [Devhints](https://devhints.io) - A ridiculous collection of web development cheatsheets.
 - [TLDR](https://tldr.ostera.io) - A community effort to simplify the beloved man pages with practical examples.
 
+## To be expanded
+
+CSS Tricks
+Smashing Magazine
+That Cheatsheet page
+Javascript 30
+Flexbox
+Grid
+ES6
+React
+Vue
+PHP
+Laravel
+Wordpress
+SQL
+Cpanel
+Namecheap
+Digital Ocean
+Linux
+Ubuntu
+Git
+Github
+Bitbucket
+Invision
+
 ## License
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
 
-To the extent possible under law, [MotoRossi](http://motorossi.me) has waived all copyright and related or neighboring rights to this work.
+[MotoRossi](http://motorossi.me) has waived all copyright and related or neighboring rights to this work. Happy hacking! 🦄
 
-_Feel like [contributing](CONTRIBUTING.md) to the starter kit? Please make sure you read the [guidelines](CONTRIBUTING.md) first!_
-
-> Without further ado, I give you, "A few Critical Things That Will Help Get You Started with [web development](#)
-
-> One thing I've learned is that there is an important balance of humility and confidence which, if properly struck, creates an environment where personal and professional growth can symbiotically thrive. But what I also have is the unshakeable persistence to see things through, which, when all other methodologies have failed me, is what I can rely on to solve nearly any problem I come across. And that's what gives me the confidence to speak from a position of understanding and expertise.
+<!-- > One thing I've learned is that there is an important balance of humility and confidence which, if properly struck, creates an environment where personal and professional growth can symbiotically thrive. But what I also have is the unshakeable persistence to see things through, which, when all other methodologies have failed me, is what I can rely on to solve nearly any problem I come across. And that's what gives me the confidence to speak from a position of understanding and expertise. -->
