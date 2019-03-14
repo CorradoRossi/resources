@@ -1,6 +1,8 @@
-> Hello World! 👋 This list of resources somehow became an impromptu article. It started out as a few words of introduction and turned into some sort of philosophical treatise. I hope it isn't received as preachy or prescriptive: I promise you, it's from one eternal student of life to another.
+## Developer Resources
 
-> If you're just here for the links and resources, skip down to the [on getting started](#front-end) section. Otherwise, If you'd like to read my rambling pontification, you can start right here.
+> Hello World! 👋 What was originally the introduction to this resource list somehow turned into a sort of impromptu philosophical treatise--I don't know how the heck that happened! I was just typing away and then, **bam**! I'm hoping it isn't received as all too preachy or prescriptive: I assure you it wasn't intended as such. I see it as more of a naiively optimistic pep talk from an eternal student of life.
+>
+> If you're just here for the links and resources, skip down to the [links & resources](#links#&#resources) > section. And if you enjoy long winded rambling pontification, you can start right from here.
 
 <img src="understanding.gif" alt="understanding" width="100%">
 
@@ -70,7 +72,7 @@ But I've always been an artist and a musician--aesthetics are not only important
 
 That's when I took my first job in web development and apart from a brief stint as an executive at a startup in San Francisco, I haven't looked back.
 
-## Tools
+## Links & Resources
 
 #### The Basics
 
