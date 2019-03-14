@@ -2,9 +2,9 @@
 
 > Hello World! 👋 What was originally the introduction to this resource list somehow turned into a sort of impromptu philosophical treatise--I don't know how the heck that happened! I was just typing away and then, **bam**! I'm hoping it isn't received as all too preachy or prescriptive: I assure you it wasn't intended as such. I see it as more of a naiively optimistic pep talk from an eternal student of life.
 >
-> If you're just here for the links and resources, skip down to the [links & resources](#links#&#resources) > section. And if you enjoy long winded rambling pontification, you can start right from here.
+> If you're just here for the links and resources, skip down to the [links & resources](#links#&#resources) section. And if you enjoy long winded rambling pontification, you can start right from here.
 
-<img src="understanding.gif" alt="understanding" width="100%">
+<img src="time-understanding.png" alt="understanding" width="100%">
 
 ##### Table Of Contents
 
