@@ -1,8 +1,8 @@
-<img src="understanding.gif" alt="understanding" width="100%">
-
-> Hello World! 👋 This is, combined, a list of useful resources and an impromptu article of sorts. It started out as a few words of encouragement to introduce my resource list, and turned into some sort of philosophical treatise. I hope it isn't received as preachy or prescriptive: I assure you, it's from one eternal student of life to another.
+> Hello World! 👋 This list of resources somehow became an impromptu article. It started out as a few words of introduction and turned into some sort of philosophical treatise. I hope it isn't received as preachy or prescriptive: I promise you, it's from one eternal student of life to another.
 
 > If you're just here for the links and resources, skip down to the [on getting started](#front-end) section. Otherwise, If you'd like to read my rambling pontification, you can start right here.
+
+<img src="understanding.gif" alt="understanding" width="100%">
 
 ## Introduction
 
