@@ -4,17 +4,17 @@
 
 > If you're just here for the links and resources, skip down to the [on getting started](#front-end) section. Otherwise, If you'd like to read my rambling pontification, you can start right here.
 
-## Getting Started
+## Introduction
 
- There are enough "getting started" how-to's, walkthroughs, tips, tricks, posts, and pages available to the aspiring developer to last a lifetime. And a lot of them are really good. I mean really, *really* good. There are free books, thousands of hours of lectures on Youtube, and thriving communities of best in class experts--often the very authors of the languages and code you've got questions about--in IRC chats, forums, subreddits, and Slack channels. 
+ There are enough "getting started" how-to's, walkthroughs, tips, tricks, posts, and pages available to the aspiring developer to last a lifetime. And a lot of them are really good. I mean really, **really** good. There are free books, thousands of hours of lectures on Youtube, and thriving communities of best in class experts--often the very authors of the languages and code you've got questions about--in IRC chats, forums, subreddits, and Slack channels. 
  
- It's an extension of the ethos born with computer technology, carried and nurtured by a rebellious collective of proto-programmers, enshrined and officialized with the GNU project, the BSD, the FOSS movement, and Linux, and since maintained by the countless wizards of tech, both sung and unsung, scattered across the globe and connected by the internet today.
+ It's an extension of the ethos born with computer technology, carried and nurtured by a rebellious collective of proto-programmers, enshrined and officialized with the GNU project, the BSD, the FOSS movement, Linux, and since maintained by the countless wizards of tech, both sung and unsung, scattered across the globe and connected by the internet today.
 
-Even so, it never hurts to add to the pile. And while the purpose of my own humble resource list is more about articulating and documenting tools and tricks for my own reference, I hope that if you stumbled across it, you find something that you didn't know before that helps you on your journey.
-
-The single greatest thing, historically speaking and imho, about computer/web/tech culture is that enthusiastic willingness of people to share software, tools, skills, and stories, with the community. A collective roadmap of how they/we got where they are. Ultimately, we're all forever indebted to the early generation of Unix, FOSS, BSD, GNU, and Linux guys for setting that tone and enshrining it--and for diligently maintaining it over the years.
+Even with all that, it never hurts to add to the pile. My own humble resource list is more about articulating a living document for my own reference, of tools and tricks and thoughts I've come across--but in the spirit of open source knowledge I'm putting it out there in the hope that it helps even just one person who stumbles across it. If you're that person, I hope you find something that you didn't know before and that it helps you on your journey.
 
 ## Philosophy
+
+The single greatest thing, historically speaking and imho, about computer/web/tech culture is that enthusiastic willingness of people to share software, tools, skills, and stories, with the community. A collective roadmap of how they/we got where they are. Ultimately, we're all forever indebted to the early generation of Unix, FOSS, BSD, GNU, and Linux guys for setting that tone and enshrining it--and for diligently maintaining it over the years.
 
 A successful career in this industry requires an elasticity of intellect and a resilience in the face of insurmountable odds. It will put you in contact with so many technologies that your head will spin--at first. While daunting, you'll find your balance and a comfortable niche in the ecosystem from which to get your bearings. From there you can continue to branch out and explore the broader landscape, a process that once begun, never ends. 
 
