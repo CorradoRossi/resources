@@ -1,24 +1,32 @@
 ## Developer Resources
 
-> Hello World! 👋 What was originally the introduction to this resource list somehow turned into a sort of impromptu philosophical treatise--I don't know how the heck that happened! I was just typing away and then, **bam**! I'm hoping it isn't received as all too preachy or prescriptive: I assure you it wasn't intended as such. I see it as more of a naiively optimistic pep talk from an eternal student of life.
+> Hello World! 👋 What was originally the introduction to this list mutated somehow into a sort of impromptu history lesson/philosophical treatise--I really don't know how the heck that happened! I was just typing away and then... **bam**! I hope it isn't received as too preachy or prescriptive: It sure wasn't intended as such. Think of it as a naiively optimistic pep talk from one student of life to another.
 >
-> If you're just here for the links and resources, skip down to the [links & resources](#links#&#resources) section. And if you enjoy long winded rambling pontification, you can start right from here.
+> If you're just here for the links and resources, skip down to the [links & resources](#links#&#resources) section. If however you enjoy long winded rambling pontification, well you can start right from the top.
 
 <img src="time-understanding.png" alt="understanding" width="100%">
+_The more you know, the more you know you don't know._ -someone ~~smart~~ wise AF
 
 ##### Table Of Contents
 
-* [Introduction](#Introduction)
-* [Philosophy](#Philosophy)
-* [Software & Setup](#Software#&#Setup)
-* [Where To Begin?](#Where#To#Begin?)
-* [Tools](#Tools)
-* [Software](#Software)
-* [Local Development](#Local#Development)
-* [Things That Make A **Huge** Difference](#Things#That#Make#A#**Huge**#Difference)
-* [Browsers](#Browsers)
-* [Network Tools](#Network#Tools)
-* [Collaboration](#Collaboration)
+* [Look At It This Way](#Look#At#It#This#Way)
+    * [Introduction](#Introduction)
+    * [Philosophy](#Philosophy)
+    * [Software & Setup](#Software#&#Setup)
+    * [Where To Begin?](#Where#To#Begin?)
+* [Links And Resources](#Links#And#Resources)
+    * [Software](#Software)
+    * [The Basics](#The#Basics)
+    * [Text Editors](#Text#Editors)
+    * [Command Line Tools](#Command#Line#Tools)
+    * [The Terminal](#The#Terminal)
+    * [Design](#Design)
+    * [Network Tools](#Network#Tools)
+    * [Local Development](#Local#Development)
+    * [Things That Make A **Huge** Difference](#Things#That#Make#A#**Huge**#Difference)
+    * [Browsers](#Browsers)
+    * [Network Tools](#Network#Tools)
+    * [Collaboration](#Collaboration)
 * [Notes and Ideas](#Notes#and#Ideas)
 * [Defensive Security](#Defensive#Security)
 * [Techniques and Workflow](#Techniques#and#Workflow)
@@ -26,8 +34,9 @@
 * [Cheatsheets](#Cheatsheets)
 * [To be expanded](#To#be#expanded)
 
+## Look At It This Way
 
-## Introduction
+### Introduction
 
  There are enough "getting started" how-to's, walkthroughs, tips, tricks, posts, and pages available to the aspiring developer to last a lifetime. And a lot of them are really good. I mean really, **really** good. There are free books, thousands of hours of lectures on Youtube, and thriving communities of best in class experts--often the very authors of the languages and code you've got questions about--in IRC chats, forums, subreddits, and Slack channels. 
  
@@ -35,7 +44,7 @@
 
 Even with all that, it never hurts to add to the pile. My own humble resource list is more about articulating a living document for my own reference, of tools and tricks and thoughts I've come across--but in the spirit of open source knowledge I'm putting it out there in the hope that it helps even just one person who stumbles across it. If you're that person, I hope you find something that you didn't know before and that it helps you on your journey.
 
-## Philosophy
+### Philosophy
 
 The single greatest thing, historically speaking and imho, about computer/web/tech culture is that enthusiastic willingness of people to share software, tools, skills, and stories, with the community. A collective roadmap of how they/we got where they are. Ultimately, we're all forever indebted to the early generation of Unix, FOSS, BSD, GNU, and Linux guys for setting that tone and enshrining it--and for diligently maintaining it over the years.
 
@@ -45,7 +54,7 @@ There's a set of defining characteristics that make a developer/engineer great: 
 
 While it's entirely possible to find that comfortable niche and stick with it forever, a true jedi of the art never stops absorbing evaluating and synthesizing information, never stops reading, learning, deconstructing, reconstructing, and making--even if the work they're currently doing to pay the bills is unstimulating or repetetive. They remain always in humble respect of the vastness of available knowledge out there. They recognize that the landscape is constantly moving forward, even as it remains at it's core an assembly of 0's and 1's.
 
-## Software & Setup
+### Software & Setup
 
 There's no "right way" to set up a development environment. You find a workflow of your own over time, with hardware and software flavors that suit your particular needs. That said, there are shortcuts and tricks that, while seemingly inconsequential individually, will dramatically improve a developers productivity in aggregate. There are certainly plenty of things I wish I'd discovered months or years earlier, and to this day I'm adding, tweaking, and experimenting with my routines.
 
@@ -60,7 +69,7 @@ Any time you leave your comfort zone, especially as an expert, and try something
 This also allows the expert to treat the junior devs in their organization with much more respect. Feeling out of your element is uncomfortable, and it feels great when a mentor or trainer recognizes that, and makes you feel like you're allowed some wiggle room as you figure things out.
 
 
-## Where To Begin?
+### Where To Begin?
 
 Most of us who work in tech related fields were drawn to computers for as long as we can remember. We're a generation that was raised on the internet, and screens are as intuitive and natural to us as TV. But if you're anything like me, a lifetime of being the "resident computer expert" in my family and communities didn't neccassarily translate to a clear understanding of what I wanted to *do* with them. 
 
