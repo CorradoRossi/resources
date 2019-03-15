@@ -1,12 +1,12 @@
 ## Developer Resources
 
-> Hello World! 👋 What was originally the introduction to this list mutated somehow into a sort of impromptu history lesson/philosophical treatise--I really don't know how the heck that happened! I was just typing away and then... **bam**! I hope it isn't received as too preachy or prescriptive: It sure wasn't intended as such. Think of it as a naiively optimistic pep talk from one student of life to another.
+> Hello World! 👋 The introduction to this list somehow mutated into a sort of impromptu history lesson/philosophical treatise on thinking like a dev--I really don't know how the heck that happened! I was just typing away and then... **bam**! I hope it doesn't come across as preachy or prescriptive: Think of it as a naiively optimistic pep talk from one student of life to another. 👍
 >
-> If you're just here for the links and resources, skip down to the [links & resources](#links#&#resources) section. If however you enjoy long winded rambling pontification, well you can start right from the top.
+> If you're just here for the links and resources, skip down to the [links & resources](#links & resources) section. If however you enjoy long winded rambling pontification, well you can start right from the top. 😂
 
 <img src="time-understanding.png" alt="understanding" width="100%">
 
-*The more you know, the more you know you don't know.*  - someone ~~smart~~ wise AF
+> *The more you know, the more you know you don't know.*  - someone ~~smart~~ **wise AF**
 
 ##### Table Of Contents
 
@@ -39,15 +39,17 @@
 
 ### Introduction
 
- There are enough "getting started" how-to's, walkthroughs, tips, tricks, posts, and pages available to the aspiring developer to last a lifetime. And a lot of them are really good. I mean really, **really** good. There are free books, thousands of hours of lectures on Youtube, and thriving communities of best in class experts--often the very authors of the languages and code you've got questions about--in IRC chats, forums, subreddits, and Slack channels. 
+ There are enough "getting started" how-to's, walkthroughs, tips, tricks, posts, and pages scattered around the internets to last the aspiring developer a lifetime. And a lot of them are really good. I mean really, **really** good. There are blogs like [Tania Rascia's](https://taniarascia.com), free books like [You Don't Know JS](https://youdontknowjs.com) or [Automate Everything](https://automateeverything.com), entire courses on Youtube like [Harvard's CS 50](https://youtube.com/harvard), and thriving communities of experts--often the very authors of the languages and code you've got questions about--available in IRC chats, forums, subreddits, Slack channels, and places like [StackOverflow](https://stackoverflow.com). 
  
- It's an extension of the ethos born with computer technology, carried and nurtured by a rebellious collective of proto-programmers, enshrined and officialized with the GNU project, the BSD, the FOSS movement, Linux, and since maintained by the countless wizards of tech, both sung and unsung, scattered across the globe and connected by the internet today.
+ It's an extension of an ethos born with the first computers, carried and cultivated by a rebellious collective of proto-programmers, enshrined and canonized with the GNU project, the BSD, and the advent of FOSS, and since maintained by countless wizards of tech, both sung and unsung, scattered across the globe and connected by the internet.
 
-Even with all that, it never hurts to add to the pile. My own humble resource list is more about articulating a living document for my own reference, of tools and tricks and thoughts I've come across--but in the spirit of open source knowledge I'm putting it out there in the hope that it helps even just one person who stumbles across it. If you're that person, I hope you find something that you didn't know before and that it helps you on your journey.
+So why put up another one? Well even with all that's already out there, it never hurts to add to the pile. My own humble "awesome list" was born more as a living document of resources and patterns I've collected and used over the years that I finally decided to articulate and archive for my own reference. But in the spirit of open source knowledge I thought *even if just one person stumbles across this and finds something useful, it'd be worth throwing it up on Github*. If you're that person, awesome. I hope you find something that really twizzles your dipstick and helps you on your journey.
+
+But before we get to the tools, let's take a brief look at the ideas which shaped the community and set the standards we know of as the free and open internet.
 
 ### Philosophy
 
-The single greatest thing, historically speaking and imho, about computer/web/tech culture is that enthusiastic willingness of people to share software, tools, skills, and stories, with the community. A collective roadmap of how they/we got where they are. Ultimately, we're all forever indebted to the early generation of Unix, FOSS, BSD, GNU, and Linux guys for setting that tone and enshrining it--and for diligently maintaining it over the years.
+The greatest thing, historically speaking (and imho), about web/tech culture has been the willingness of brilliant people to share software, skills, stories, and resources with the rest of the community over the years. It's created a collective roadmap of how we got where we are. Really truly, without the generosity of the early generation of Unix, FOSS, BSD, GNU, and Linux folks, the world wouldn't be what it is today. They made it the norm to write incredibly valuable and useful code, then turn it over to the community as open source software--going so far as to even diligently maintain it over the years, and creating countless opportunities for others to build on it with careers in the field.
 
 A successful career in this industry requires an elasticity of intellect and a resilience in the face of insurmountable odds. It will put you in contact with so many technologies that your head will spin--at first. While daunting, you'll find your balance and a comfortable niche in the ecosystem from which to get your bearings. From there you can continue to branch out and explore the broader landscape, a process that once begun, never ends. 
 
