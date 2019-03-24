@@ -1,62 +1,70 @@
-# Setting Up A Local Development Environment For Wordpress
+# Setting Up A Local Dev Environment For Wordpress
 
-In the world of web development, there are a dozen ways to do anything. While your workflow may ultimately be dictated by the agency you work for or the stack needed for a particular project, one thing's for certain: There are tricks and shortcuts to streamline the process, and somebody else has probably already figured them out.
+> This is the first in a series of articles that go step by step through the process of setting up and streamlining a local development environment for Wordpress. It deals exclusively with configuring and optimizing MAMP. If you've already got MAMP set up, read it anyway; this way is better :S 
 
-I used MAMP as a local Wordpress development environment for years and I had a process that made it as streamlined and painless as possible to set up a new project. Lately I've been experimenting with a Vagrant/Virtualbox system that brings parity between my local, staging, and production environments, however I still think it's important to have MAMP on call.
-
-This is the first of a three article series in which I will walk you through step by step the process of setting up and streamlining a local development environment. In the second article I'll walk you through setting up Wordpress itself, and in the third I'll show you a more advanced and wholly different paradigm for Wordpress development.
-
-But let's not get ahead of ourselves! One beer at a time as they say ;)
+>The second article deals with installation and configuration of Wordpress itself. The third introduces a more advanced and wholly different paradigm that uses Vagrant and Virtualbox to create virtual machines for bringing parity to your local, staging, and production servers. But let's not get ahead of ourselves. One beer at a time as they say!
+>
 
 ## The MAMP way
 
-MAMP stands for MacOS, Apache, MySQL, and PHP. It makes it easy to spin up a local web server and MySQL database. Although it's incredibly easy to use and ready to go out of the box, a little bit of extra configuration up front can make it even *more* easy and convenient over time. Let's begin.
+MAMP stands for MacOS, Apache, MySQL, and PHP. It's a solution as old as father time that makes it easy to spin up a web server and MySQL database locally. It's convenient out of the box, but with a little bit of extra configuration up front, you can implement as many extra sites as your little heart desires--without needing to change MAMP's working directory to switch between them. Which makes it even *more* convenient.
+
+Like most things in life, there are a dozen different ways to do anything in the wacky world of web development. None of them are neccassarily right or wrong. What you use depends largely on personal preference. That said, your workflow may be dictated by your employer or the stack required for a particular project, so it's a good idea to be familiar with the most popular and time tested ones. One thing is nearly certain though: If there's a trick or a shortcut to streamline the process, somebody else has probably already figured it out and posted a walkthrough for it on the internet. Which is awesome. 
+
+I used MAMP for years before experimenting with Vagrant/Virtualbox and have gotten it about as painless and hassle free as possible to set up a new project. So without further ado, here's "the right way" to setup MAMP.
 
 ### Get Wordpress
 
 Before we begin, open a terminal session and make a new directory for your Wordpress project.
-```
+
+```shell
 $ cd path/to/directory && mkdir newsite && cd newsite
 ```
 
-go to Wordpress.org, grab a copy of the latest stable release (5.1.1 at the time of writing), and unzip it in your new directory. 
+go to Wordpress.org and grab a copy of the latest stable release (5.1.1 at the time of writing). Unzip it in your new directory for later. 
 
 If you haven't already, download and install MAMP.
 
-Open MAMP and make sure the document root is **Applications > MAMP > htdocs**. That's the default, but might as well be certain. You can **CMD + Q** MAMP for now while we set the rest up. 
+Open MAMP and make sure the document root is **Applications > MAMP > htdocs**. 
 
 <img src="img/mamp-1.png" alt="understanding" width="70%">
 
+That should be the default but might as well be certain. You can **CMD + Q** out of MAMP for now while we get the rest set up. 
+
 ### Allow virtual hosts
 
-Go to 
-```
-Applications >  MAMP > conf > Apache > httpd.conf 
-```
+Go to **Applications >  MAMP > conf > Apache > httpd.conf** 
+
 and open that file with your text editor.
 
-Hit CMD + f and find this line:
-```
+Hit **CMD + f** and search for this line:
+
+```shell
 # Virtual hosts
 #Include /Applications/MAMP/conf/apache/extra/httpd-vhosts.conf
 ```
+
 Uncomment the line so it looks like this:
-```
+
+```shell
 # Virtual hosts
 Include /Applications/MAMP/conf/apache/extra/httpd-vhosts.conf
 ```
 
 ### Allow Symlink override
 
-In the same file find the line that looks like this:
-```
+In the same file find the snippet that looks like this:
+
+```html
 <Directory />
     Options Indexes FollowSymLinks
     AllowOverride None
 </Directory>
+
 ```
-And change **none** to **all**.
-```
+And change AllowOverride from **none** to **all**.
+
+```html
 <Directory />
     Options Indexes FollowSymLinks
     AllowOverride All
@@ -67,14 +75,14 @@ And change **none** to **all**.
 
 Once again in the same file look for these two lines (they won't be right next to one another):
 
-```
+```js
 listen 8888
 ServerName localhost:8888
 ```
 
-And change them to this:
+And change them to:
 
-```
+```js
 listen 80
 ServerName localhost:80
 ```
@@ -83,34 +91,34 @@ Then save the file.
 
 ### Add the virtual host path
 
-Navigate to **Applications > MAMP > conf > apache > extra** and open the **httpd-vhosts.conf** file in your text editor.
+Navigate to **Applications > MAMP > conf > apache > extra > httpd-vhosts.conf** and open the file in your text editor.
 
-At the end of the document add this:
+At the end of the document add this snippet:
 
-```
+```html
 <VirtualHost *:80>
   ServerName newsite.test
   DocumentRoot "/path/to/directory"
 </VirtualHost>
 ```
 
-Where ServerName is the name of your new site and DocumentRoot is the directory that your new Wordpress project will be located.
+Where ServerName reflects the name you'd like to use for your new site and DocumentRoot reflects the directory that you made earlier for your new Wordpress project.
 
 Save the file.
 
 ### Allow your computer to recognize the domain
 
-Finally, we need to make the computer recognize the new domain we've created.
+Finally, we need to make it so that the computer will recognize the new domain we've created.
 
 Open your terminal and type:
 
-```
+```shell
 sudo pico /etc/hosts
 ```
 
 After entering your password you'll be editing a text file with Nano that looks like this.
 
-```
+```shell
 ##
 # Host Database
 #
@@ -127,11 +135,11 @@ fe80::1%lo0     localhost
 
 Press down until you get to the end of the file and add the line:
 
-```
+```shell
 127.0.0.1       newsite.test
 ```
 
-Then press ctrl + o to finish editing, enter to save the changes, and ctrl + x to exit back to your terminal screen.
+Then press **ctrl + o** to finish editing, **enter** to save the changes, and **ctrl + x** to exit back to your terminal screen.
 
 ### Change MAMP ports 
 
@@ -139,15 +147,15 @@ Open MAMP and navigate to **preferences > ports**. Change the ports to 80, 8888,
 
 <img src="img/mamp-2.png" alt="understanding" width="70%">
 
-Exit out of MAMP. When you restart the server all of your changes will take effect.
+Exit out of MAMP. The next time you restart the server all of your changes will take effect.
 
-Once you setup your Wordpress installation you'll be able to navigate to newsite.test in your browser to see it! If you want a little instant gratification (or if you want to make sure you did everything right) just go to the directory you set up and create a file with some html in it and name it **index.php**. After restarting MAMP you should be able to see the file at newsite.test!
+Once you setup your Wordpress installation you'll be able to navigate to `newsite.test` in your browser and see it! If you want a little instant gratification (or if you want to make sure you did everything right) you can go to the directory you set up and create a file with some markup and name it **index.php**. After restarting MAMP you should be able to see the file at `newsite.test`!
 
 ### Rinse and repeat
 
-The beauty of this setup is that you can repeat it for as many sites as you'd like. Just follow the last couple steps and add a new virtual host at the bottom of the vhosts.conf file with it's own ServerName and DocumentRoot:
+The beauty of this setup is that it's repeatable for as many sites as you'd like and with the initial setup done, really easy to add new ones. Just follow the last couple steps for each new site: Add a new virtual host at the bottom of the `vhosts.conf` file with it's own `ServerName` and `DocumentRoot`:
 
-```
+```html
 <VirtualHost *:80>
   ServerName newsite.test
   DocumentRoot "path/to/newsite"
@@ -159,9 +167,9 @@ The beauty of this setup is that you can repeat it for as many sites as you'd li
 </VirtualHost>
 ```
 
-And allow your computer to recognize it using the same process in your terminal:
+And allow your computer to recognize it by using the terminal command and Nano editing you used earlier:
 
-```
+```shell
 sudo pico /etc/hosts
 ```
 
