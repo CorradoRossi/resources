@@ -4,7 +4,7 @@
 >
 > If you're just here for the links and resources, skip down to the [links & resources](#links & resources) section. If however you enjoy long winded rambling pontification, well you can start right from the top. 😂
 
-<img src="time-understanding.png" alt="understanding" width="100%">
+<img src="img/time-understanding.png" alt="understanding" width="100%">
 
 > *The more you know, the more you know you don't know.*  - someone ~~smart~~ **wise AF**
 
