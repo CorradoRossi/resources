@@ -25,7 +25,7 @@ If you haven't already, download and install MAMP.
 
 Open MAMP and make sure the document root is **Applications > MAMP > htdocs**. That's the default, but might as well be certain. You can **CMD + Q** MAMP for now while we set the rest up. 
 
-<img src="img/mamp-1.png" alt="understanding" width="100%">
+<img src="img/mamp-1.png" alt="understanding" width="70%">
 
 ### Allow virtual hosts
 
@@ -137,7 +137,7 @@ Then press ctrl + o to finish editing, enter to save the changes, and ctrl + x t
 
 Open MAMP and navigate to **preferences > ports**. Change the ports to 80, 8888, and 3306.
 
-<img src="img/mamp-2.png" alt="understanding" width="100%">
+<img src="img/mamp-2.png" alt="understanding" width="70%">
 
 Exit out of MAMP. When you restart the server all of your changes will take effect.
 
