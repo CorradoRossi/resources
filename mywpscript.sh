@@ -2,6 +2,13 @@
 
 DOT_FILE="$HOME/.wordpress-base"
 WORDPRESS_REPO="git@github.com:WordPress/WordPress.git"
+VHOST="<VirtualHost *:80>\n
+            ServerName $DEV_DOMAIN\n
+            DocumentRoot "$SITE_DIRECTORY"\n
+          </VirtualHost>\n"
+ETC_HOSTS="/etc/hosts"
+MAMP="/applications/MAMP/conf/apache/extra/httpd-vhosts.conf"
+LOCAL_IP="127.0.0.1"
 R='\e[1;35m'
 G='\e[0;36m'
 LBBG='\e[104m'
@@ -71,18 +78,23 @@ function site_local_domain() {
 }
 
 function set_vhost() {
-    log "Setting virtualhost in .../apache/extra/httpd-vhosts.conf file.\n"
-    VHOST="<VirtualHost *:80>\n
-            ServerName $DEV_DOMAIN\n
-            DocumentRoot "$SITE_DIRECTORY"\n
-          </VirtualHost>\n"
-    echo "$VHOST" >> $HOME/applications/MAMP/conf/apache/extra/httpd-vhosts.conf
-    #printf '%s\n' "g/$STRING/d" a "$VHOST" . w | ed -s $ROOT_DIR/applications/MAMP/conf/apache/extra/httpd-vhosts.conf
+    printf "\n  ----------------------------------------------------------------------  \n"
+    printf "   \n"
+    printf "   Setting virtualhost in .../apache/extra/httpd-vhosts.conf file. \n" 
+    printf "   \n"
+    printf "\n  ----------------------------------------------------------------------  \n"
+    printf "                                                                          \n\n"
+    printf "%s\t%s\n" "$VHOST" | sudo tee -a $MAMP > /dev/null
 }
 
 function set_etc_host() {
-    log "Updating /etc/hosts with new virtualhost (password may be required)."
-    sudo echo 127.0.0.1   $DEV_DOMAIN >> /etc/hosts
+    printf "\n  ----------------------------------------------------------------------  \n"
+    printf "   \n"
+    printf "  Updating /etc/hosts with new virtualhost (password may be required). \n" 
+    printf "   \n"
+    printf "\n  ----------------------------------------------------------------------  \n"
+    printf "                                                                          \n\n"
+    printf "%s\t%s\n" "$LOCAL_IP" "$DEV_DOMAIN" | sudo tee -a $ETC_HOSTS > /dev/null
 }
 
 function get_and_create_site_directory() {
@@ -196,10 +208,11 @@ check_dot_file
 site_root_info
 get_and_create_site_directory
 site_local_domain
-set_vhost
 clone_wordpress
 create_config
 database_variables
 find_replace
 replace_salt
+set_vhost
+set_etc_host
 completed_notice
