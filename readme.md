@@ -1,21 +1,18 @@
 ## Developer Resources
 
-> Hello World! 👋 The introduction to this list somehow mutated into a sort of impromptu history lesson/philosophical treatise on thinking like a dev--I really don't know how the heck that happened! I was just typing away and then... **bam**! I hope it doesn't come across as preachy or prescriptive: Think of it as a naiively optimistic pep talk from one student of life to another. 👍
->
-> If you're just here for the links and resources, skip down to the [links & resources](#links & resources) section. If however you enjoy long winded rambling pontification, well you can start right from the top. 😂
+> Hello World! 👋 If you're just here for the links and resources, skip down to the [links](#links) section. If however you enjoy long winded rambling pontification, well you can start right from the top. 😂
 
 <img src="img/time-understanding.png" alt="understanding" width="100%">
 
-> *The more you know, the more you know you don't know.*  - someone ~~smart~~ **wise AF**
+> *The more you know, the more you know you don't know.*  - someone ~~wise~~ **WISE AF**
 
 ##### Table Of Contents
 
-* [Look At It This Way](#Look#At#It#This#Way)
-    * [Introduction](#Introduction)
+* [Introduction](#Introduction)
     * [Philosophy](#Philosophy)
     * [Software & Setup](#Software#&#Setup)
     * [Where To Begin?](#Where#To#Begin?)
-* [Links And Resources](#Links#And#Resources)
+* [Links And Resources](#Links)
     * [Software](#Software)
     * [The Basics](#The#Basics)
     * [Text Editors](#Text#Editors)
@@ -35,21 +32,19 @@
 * [Cheatsheets](#Cheatsheets)
 * [To be expanded](#To#be#expanded)
 
-## Look At It This Way
+## Introduction
 
-### Introduction
-
- There are enough "getting started" how-to's, walkthroughs, tips, tricks, posts, and pages scattered around the internets to last the aspiring developer a lifetime. And a lot of them are really good. I mean really, **really** good. There are blogs like [Tania Rascia's](https://taniarascia.com), free books like [You Don't Know JS](https://youdontknowjs.com) or [Automate Everything](https://automateeverything.com), entire courses on Youtube like [Harvard's CS 50](https://youtube.com/harvard), and thriving communities of experts--often the very authors of the languages and code you've got questions about--available in IRC chats, forums, subreddits, Slack channels, and places like [StackOverflow](https://stackoverflow.com). 
+ There are how-to's, walkthroughs, and "getting started" techniques scattered all over the internets--enough to last the aspiring developer a lifetime. A lot of them are good. I mean **really** good! [Tania Rascia's](https://taniarascia.com) blog comes to mind, books like [You Don't Know JS](https://youdontknowjs.com) or [Automate Everything](https://automateeverything.com), lists of [Awesome Lists](https://github.com/sindresorhus/awesome), even entire courses like [Harvard's CS 50](https://youtube.com/harvard) right on Youtube! There are thriving communities of experts--often the very authors of the code you've got questions about--who make themselves available in forums and subreddits, on [StackOverflow](https://stackoverflow.com), Slack, and IRC. 
  
- It's an extension of an ethos born with the first computers, carried and cultivated by a rebellious collective of proto-programmers, enshrined and canonized with the GNU project, the BSD, and the advent of FOSS, and since maintained by countless wizards of tech, both sung and unsung, scattered across the globe and connected by the internet.
+ It's an ethos that's been carried and cultivated by programmers since the first vacuum tubes and transistors were cobbled together and called computers, enshrined and canonized by GNU, BSD, and the FOSS movement, maintained by countless unsung wizards of tech, scattered around the world behind the scenes and connected by the intangible connective tissue of the world wide web.
 
-So why put up another one? Well even with all that's already out there, it never hurts to add to the pile. My own humble "awesome list" was born more as a living document of resources and patterns I've collected and used over the years that I finally decided to articulate and archive for my own reference. But in the spirit of open source knowledge I thought *even if just one person stumbles across this and finds something useful, it'd be worth throwing it up on Github*. If you're that person, awesome. I hope you find something that really twizzles your dipstick and helps you on your journey.
+So why am I writing yet another resource list? Aren't there enough of them already? Well... even if there are "enough", I'm convinced that there can't be "too many", and that it never hurts to create another node. After all, isn't that the idea of a network? This list is more of a living document anyway. A scattered collection of resources and links from over the years that I've decided to organize and archive for my own reference. *If even just one person stumbles across this list and finds something useful, it will have been worth putting it up on Github instead of keeping it in some file on some harddrive in my office*. I hope you, dear reader, are that person, and that you find something that helps you on your journey.
 
-But before we get to the tools, let's take a brief look at the ideas which shaped the community and set the standards we know of as the free and open internet.
+Before I get to the links, I'll say a few words about the important ideas which shaped the community (as I understand it) and set the standards of what we now think of as as the free and open internet.
 
 ### Philosophy
 
-The greatest thing, historically speaking (and imho), about web/tech culture has been the willingness of brilliant people to share software, skills, stories, and resources with the rest of the community over the years. It's created a collective roadmap of how we got where we are. Really truly, without the generosity of the early generation of Unix, FOSS, BSD, GNU, and Linux folks, the world wouldn't be what it is today. They made it the norm to write incredibly valuable and useful code, then turn it over to the community as open source software--going so far as to even diligently maintain it over the years, and creating countless opportunities for others to build on it with careers in the field.
+One of the greatest things about tech culture has been the sharing of software, skills, ideas, and resources within the community. Without the generosity and idealism of the early Unix, BSD, GNU, FOSS, and Linux folks, the world quite literally wouldn't be where it is today. Open source software and its creators set a standard and provided a collective roadmap of software evolution, allowing us all to stand on the shoulders of giants, even going so far as to diligently maintain projects over the years, creating countless opportunities and careers for the rest of us.
 
 A successful career in this industry requires an elasticity of intellect and a resilience in the face of insurmountable odds. It will put you in contact with so many technologies that your head will spin--at first. While daunting, you'll find your balance and a comfortable niche in the ecosystem from which to get your bearings. From there you can continue to branch out and explore the broader landscape, a process that once begun, never ends. 
 
@@ -84,7 +79,7 @@ But I've always been an artist and a musician--aesthetics are not only important
 
 That's when I took my first job in web development and apart from a brief stint as an executive at a startup in San Francisco, I haven't looked back.
 
-## Links & Resources
+## Links
 
 #### The Basics
 
